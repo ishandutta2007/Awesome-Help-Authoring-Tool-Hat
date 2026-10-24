@@ -1,0 +1,211 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background linear gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#030712" />
+    </linearGradient>
+
+    <!-- Glowing accent gradients -->
+    <linearGradient id="primary-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="cyan-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="card-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#ec4899" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.6" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter for foreground text -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000000" flood-opacity="0.8" />
+    </filter>
+
+    <filter id="neon-glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid pattern -->
+    <pattern id="tech-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.25" />
+      <circle cx="40" cy="0" r="1.5" fill="#6366f1" fill-opacity="0.3" />
+    </pattern>
+
+    <style>
+      .title-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+        text-anchor: middle;
+      }
+      .subtitle-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        letter-spacing: 0.02em;
+        text-anchor: middle;
+      }
+      .badge-text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 600;
+        font-size: 13px;
+        letter-spacing: 0.03em;
+        text-anchor: middle;
+      }
+
+      /* Dynamic Animations */
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-12px) rotate(1.5deg); }
+      }
+      @keyframes floatAlt {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(10px) rotate(-1.5deg); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.35; transform: scale(1); }
+        50% { opacity: 0.65; transform: scale(1.08); }
+      }
+      @keyframes dashFlow {
+        from { stroke-dashoffset: 200; }
+        to { stroke-dashoffset: 0; }
+      }
+
+      .floating-bg-card-1 {
+        animation: floatSlow 7s ease-in-out infinite;
+      }
+      .floating-bg-card-2 {
+        animation: floatAlt 8.5s ease-in-out infinite;
+      }
+      .floating-bg-card-3 {
+        animation: floatSlow 6s ease-in-out infinite reverse;
+      }
+      .pulsing-orb {
+        transform-origin: center;
+        animation: pulseGlow 5s ease-in-out infinite;
+      }
+      .animated-stream {
+        stroke-dasharray: 8 6;
+        animation: dashFlow 20s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="420" rx="16" fill="url(#bg-grad)" />
+
+  <!-- Background Tech Grid Pattern -->
+  <rect width="1200" height="420" rx="16" fill="url(#tech-grid)" />
+
+  <!-- Animated Ambient Glow Orbs in Background -->
+  <g class="pulsing-orb">
+    <circle cx="200" cy="90" r="140" fill="#6366f1" opacity="0.25" filter="url(#neon-glow)" />
+    <circle cx="1020" cy="330" r="160" fill="#ec4899" opacity="0.2" filter="url(#neon-glow)" />
+    <circle cx="980" cy="80" r="120" fill="#06b6d4" opacity="0.2" filter="url(#neon-glow)" />
+    <circle cx="150" cy="350" r="130" fill="#8b5cf6" opacity="0.2" filter="url(#neon-glow)" />
+  </g>
+
+  <!-- Flow Lines / Data Streams (Background layer) -->
+  <g opacity="0.45">
+    <path class="animated-stream" d="M 0 100 Q 300 40, 600 90 T 1200 60" fill="none" stroke="#6366f1" stroke-width="2" />
+    <path class="animated-stream" d="M 0 320 Q 350 380, 700 310 T 1200 360" fill="none" stroke="#ec4899" stroke-width="2" />
+    <path class="animated-stream" d="M 100 0 Q 250 200, 150 420" fill="none" stroke="#06b6d4" stroke-width="1.5" />
+    <path class="animated-stream" d="M 1100 0 Q 950 220, 1050 420" fill="none" stroke="#a855f7" stroke-width="1.5" />
+  </g>
+
+  <!-- Decorative Outer Border -->
+  <rect x="2" y="2" width="1196" height="416" rx="15" fill="none" stroke="url(#card-border)" stroke-width="2" opacity="0.85" />
+
+  <!-- Dynamic / Floating Background Chips (Non-obstructing, positioned at perimeter corners) -->
+  <g class="floating-bg-card-1" opacity="0.75">
+    <rect x="50" y="45" width="160" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="130" y="67" fill="#94a3b8" class="badge-text">⚡ Docs-as-Code</text>
+  </g>
+
+  <g class="floating-bg-card-2" opacity="0.75">
+    <rect x="990" y="45" width="160" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="1070" y="67" fill="#94a3b8" class="badge-text">📚 Multi-Channel Pub</text>
+  </g>
+
+  <g class="floating-bg-card-3" opacity="0.75">
+    <rect x="50" y="340" width="170" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="135" y="362" fill="#94a3b8" class="badge-text">🛠️ Structured CCMS</text>
+  </g>
+
+  <g class="floating-bg-card-1" opacity="0.75">
+    <rect x="980" y="340" width="170" height="34" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="1065" y="362" fill="#94a3b8" class="badge-text">🎯 Single-Sourcing</text>
+  </g>
+
+  <!-- ======================================================== -->
+  <!-- FOREGROUND LAYER: Title, Subtitle, Badges (Strictly on top) -->
+  <!-- ======================================================== -->
+  <g id="foreground-content" filter="url(#shadow)">
+    
+    <!-- Top Pill / Category Identifier -->
+    <g transform="translate(600, 78)">
+      <rect x="-145" y="-18" width="290" height="36" rx="18" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.5" />
+      <circle cx="-120" cy="0" r="5" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite" />
+      </circle>
+      <text x="-105" y="5" fill="#c7d2fe" font-size="13" font-weight="700" letter-spacing="0.08em" font-family="system-ui, sans-serif">CURATED HAT ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="155" class="title-text" font-size="46" fill="#ffffff">
+      Awesome Help Authoring Tools
+    </text>
+
+    <!-- Title Accent Bar with Gradient -->
+    <rect x="420" y="172" width="360" height="4" rx="2" fill="url(#primary-glow)">
+      <animate attributeName="width" values="300;380;300" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="x" values="450;410;450" dur="4s" repeatCount="indefinite" />
+    </rect>
+
+    <!-- Subtitle (Clear, readable, high-contrast) -->
+    <text x="600" y="215" class="subtitle-text" font-size="20" fill="#e2e8f0">
+      The Definitive Guide to Modern HATs, Docs-as-Code Generators &amp; CCMS
+    </text>
+    
+    <text x="600" y="246" class="subtitle-text" font-size="15" fill="#94a3b8">
+      Empowering Technical Writers, Documentation Engineers &amp; Developer Teams
+    </text>
+
+    <!-- Interactive / Status Badges Row in Center Foreground -->
+    <g transform="translate(600, 302)">
+      <!-- Badge 1: SaaS & Enterprise -->
+      <g transform="translate(-255, 0)">
+        <rect x="-75" y="-16" width="150" height="32" rx="16" fill="#0f172a" stroke="#3b82f6" stroke-width="1.2" />
+        <text x="0" y="5" fill="#93c5fd" class="badge-text">🏢 Enterprise SaaS</text>
+      </g>
+
+      <!-- Badge 2: Open Source -->
+      <g transform="translate(-85, 0)">
+        <rect x="-75" y="-16" width="150" height="32" rx="16" fill="#0f172a" stroke="#10b981" stroke-width="1.2" />
+        <text x="0" y="5" fill="#6ee7b7" class="badge-text">✨ Open Source</text>
+      </g>
+
+      <!-- Badge 3: Docs-as-Code -->
+      <g transform="translate(85, 0)">
+        <rect x="-75" y="-16" width="150" height="32" rx="16" fill="#0f172a" stroke="#a855f7" stroke-width="1.2" />
+        <text x="0" y="5" fill="#d8b4fe" class="badge-text">💻 Docs-as-Code</text>
+      </g>
+
+      <!-- Badge 4: Multi-Channel -->
+      <g transform="translate(255, 0)">
+        <rect x="-75" y="-16" width="150" height="32" rx="16" fill="#0f172a" stroke="#f43f5e" stroke-width="1.2" />
+        <text x="0" y="5" fill="#fda4af" class="badge-text">🌐 Multi-Channel</text>
+      </g>
+    </g>
+
+  </g>
+</svg>
