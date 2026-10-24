@@ -1,6 +1,6 @@
 # Awesome-Help-Authoring-Tool-Hat
 
-# Top Help Authoring Tool (HAT) Ecosystem
+## Top Help Authoring Tool (HAT) Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
 *Focused on Self-Hosted Documentation, Docs-as-Code Pipelines & Multi-Format Publishing*  
