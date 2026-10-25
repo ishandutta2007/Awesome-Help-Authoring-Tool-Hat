@@ -8,7 +8,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Help-Authoring-Tool-Hat/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Help-Authoring-Tool-Hat?style=flat-square&color=yellow" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Help-Authoring-Tool-Hat/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Help-Authoring-Tool-Hat?style=flat-square&color=yellow" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Help-Authoring-Tool-Hat/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Help-Authoring-Tool-Hat?style=flat-square&color=blue" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Help-Authoring-Tool-Hat/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Help-Authoring-Tool-Hat?style=flat-square&color=red" alt="GitHub Issues" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Help-Authoring-Tool-Hat/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-success.svg?style=flat-square" alt="License: MIT" /></a>
@@ -75,9 +75,9 @@ The following table provides verified starting tier prices, explicit free tier /
 
 ## ✨ Open-Source GitHub Projects
 
-The open-source ecosystem provides transparent, cost-effective, docs-as-code alternatives to expensive proprietary licenses. Below are the leading open-source repositories, sorted in descending order by **GitHub Star Count**.
+The open-source ecosystem provides transparent, cost-effective, docs-as-code alternatives to expensive proprietary licenses. Below are the leading open-source repositories, sorted in descending order by **GitHub Stars_Count**.
 
-### 1. 🚀 [Hugo](https://gohugo.io/) [![GitHub stars](https://img.shields.io/github/stars/gohugoio/hugo?style=social&color=white)](https://github.com/gohugoio/hugo/stargazers)
+### 1. 🚀 [Hugo](https://gohugo.io/) [![GitHub_Stars](https://img.shields.io/github/stars/gohugoio/hugo?style=social&color=white)](https://github.com/gohugoio/hugo/stargazers)
 - **Repository:** [`gohugoio/hugo`](https://github.com/gohugoio/hugo) | **License:** Apache-2.0
 - **Tech Stack:** Go (Golang)
 - **Overview:** The world's fastest static site engine. Renders thousands of pages in fractions of a second. Extensively utilized for massive documentation systems with battle-tested documentation themes such as *Docsy*, *Hugo Book*, and *Geekdoc*.
@@ -85,7 +85,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 2. ⚛️ [Docusaurus](https://docusaurus.io/) [![GitHub stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers)
+### 2. ⚛️ [Docusaurus](https://docusaurus.io/) [![GitHub_Stars](https://img.shields.io/github/stars/facebook/docusaurus?style=social&color=white)](https://github.com/facebook/docusaurus/stargazers)
 - **Repository:** [`facebook/docusaurus`](https://github.com/facebook/docusaurus) | **License:** MIT
 - **Tech Stack:** React, Node.js, MDX
 - **Overview:** Meta's flagship documentation framework. Combines Markdown with interactive React components via MDX. Generates a blazing-fast Single Page Application (SPA) with client-side navigation.
@@ -93,7 +93,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 3. 📝 [Outline](https://www.getoutline.com/) [![GitHub stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers)
+### 3. 📝 [Outline](https://www.getoutline.com/) [![GitHub_Stars](https://img.shields.io/github/stars/outline/outline?style=social&color=white)](https://github.com/outline/outline/stargazers)
 - **Repository:** [`outline/outline`](https://github.com/outline/outline) | **License:** BSL 1.1 (Business Source License / Free self-hosted)
 - **Tech Stack:** TypeScript, React, Node.js, PostgreSQL
 - **Overview:** A lightning-fast, collaborative team wiki and knowledge base designed as an open-source, self-hostable alternative to Notion.
@@ -101,7 +101,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 4. 📜 [Slate](https://github.com/slatedocs/slate) [![GitHub stars](https://img.shields.io/github/stars/slatedocs/slate?style=social&color=white)](https://github.com/slatedocs/slate/stargazers)
+### 4. 📜 [Slate](https://github.com/slatedocs/slate) [![GitHub_Stars](https://img.shields.io/github/stars/slatedocs/slate?style=social&color=white)](https://github.com/slatedocs/slate/stargazers)
 - **Repository:** [`slatedocs/slate`](https://github.com/slatedocs/slate) | **License:** Apache-2.0
 - **Tech Stack:** Ruby, Middleman, JavaScript
 - **Overview:** The pioneer of modern three-column API documentation inspired by Stripe. Places navigation on the left, descriptive markdown in the middle, and multi-language code samples on the right.
@@ -109,7 +109,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 5. ⚡ [Docsify](https://docsify.js.org/) [![GitHub stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social&color=white)](https://github.com/docsifyjs/docsify/stargazers)
+### 5. ⚡ [Docsify](https://docsify.js.org/) [![GitHub_Stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social&color=white)](https://github.com/docsifyjs/docsify/stargazers)
 - **Repository:** [`docsifyjs/docsify`](https://github.com/docsifyjs/docsify) | **License:** MIT
 - **Tech Stack:** JavaScript, Vue.js
 - **Overview:** A magical documentation generator that dynamically renders Markdown files directly in the browser without an ahead-of-time build step.
@@ -117,7 +117,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 6. 🌐 [Wiki.js](https://js.wiki/) [![GitHub stars](https://img.shields.io/github/stars/requarks/wiki?style=social&color=white)](https://github.com/requarks/wiki/stargazers)
+### 6. 🌐 [Wiki.js](https://js.wiki/) [![GitHub_Stars](https://img.shields.io/github/stars/requarks/wiki?style=social&color=white)](https://github.com/requarks/wiki/stargazers)
 - **Repository:** [`requarks/wiki`](https://github.com/requarks/wiki) | **License:** AGPL-3.0
 - **Tech Stack:** Node.js, Vue.js, PostgreSQL/MySQL/SQLite
 - **Overview:** A modern, extensible open-source wiki software featuring two-way Git synchronization, multiple editor formats (Markdown, Visual WYSIWYG, Raw HTML, AsciiDoc), and robust authentication.
@@ -125,7 +125,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 7. 🎨 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) [![GitHub stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social&color=white)](https://github.com/squidfunk/mkdocs-material/stargazers)
+### 7. 🎨 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) [![GitHub_Stars](https://img.shields.io/github/stars/squidfunk/mkdocs-material?style=social&color=white)](https://github.com/squidfunk/mkdocs-material/stargazers)
 - **Repository:** [`squidfunk/mkdocs-material`](https://github.com/squidfunk/mkdocs-material) | **License:** MIT
 - **Tech Stack:** Python, MkDocs, HTML5/SCSS, TypeScript
 - **Overview:** The definitive technical documentation theme built on top of MkDocs. Implements Google's Material Design with advanced technical documentation primitives.
@@ -133,7 +133,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 8. 📑 [Redoc](https://redocly.com/redoc/) [![GitHub stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers)
+### 8. 📑 [Redoc](https://redocly.com/redoc/) [![GitHub_Stars](https://img.shields.io/github/stars/Redocly/redoc?style=social&color=white)](https://github.com/Redocly/redoc/stargazers)
 - **Repository:** [`Redocly/redoc`](https://github.com/Redocly/redoc) | **License:** MIT
 - **Tech Stack:** TypeScript, React
 - **Overview:** OpenAPI / Swagger-powered API reference generator delivering responsive, enterprise-grade three-panel API documentation.
@@ -141,7 +141,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 9. 🐍 [MkDocs](https://www.mkdocs.org/) [![GitHub stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social&color=white)](https://github.com/mkdocs/mkdocs/stargazers)
+### 9. 🐍 [MkDocs](https://www.mkdocs.org/) [![GitHub_Stars](https://img.shields.io/github/stars/mkdocs/mkdocs?style=social&color=white)](https://github.com/mkdocs/mkdocs/stargazers)
 - **Repository:** [`mkdocs/mkdocs`](https://github.com/mkdocs/mkdocs) | **License:** BSD-2-Clause
 - **Tech Stack:** Python
 - **Overview:** Fast, simple static site generator built specifically for project documentation. Configured via a single `mkdocs.yml` file and written in standard Markdown.
@@ -149,7 +149,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 10. 🦀 [mdBook](https://rust-lang.github.io/mdBook/) [![GitHub stars](https://img.shields.io/github/stars/rust-lang/mdBook?style=social&color=white)](https://github.com/rust-lang/mdBook/stargazers)
+### 10. 🦀 [mdBook](https://rust-lang.github.io/mdBook/) [![GitHub_Stars](https://img.shields.io/github/stars/rust-lang/mdBook?style=social&color=white)](https://github.com/rust-lang/mdBook/stargazers)
 - **Repository:** [`rust-lang/mdBook`](https://github.com/rust-lang/mdBook) | **License:** MPL-2.0
 - **Tech Stack:** Rust
 - **Overview:** Command-line tool written in Rust to create online books and documentation manuals from Markdown files. Famous for powering the official Rust programming books.
@@ -157,7 +157,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 11. 🏢 [Docmost](https://docmost.com/) [![GitHub stars](https://img.shields.io/github/stars/docmost/docmost?style=social&color=white)](https://github.com/docmost/docmost/stargazers)
+### 11. 🏢 [Docmost](https://docmost.com/) [![GitHub_Stars](https://img.shields.io/github/stars/docmost/docmost?style=social&color=white)](https://github.com/docmost/docmost/stargazers)
 - **Repository:** [`docmost/docmost`](https://github.com/docmost/docmost) | **License:** AGPL-3.0
 - **Tech Stack:** TypeScript, NestJS, React, PostgreSQL, Redis
 - **Overview:** A collaborative documentation and wiki software designed as a clean, open-source alternative to Confluence and Notion.
@@ -165,7 +165,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 12. 📚 [BookStack](https://www.bookstackapp.com/) [![GitHub stars](https://img.shields.io/github/stars/BookStackApp/BookStack?style=social&color=white)](https://github.com/BookStackApp/BookStack/stargazers)
+### 12. 📚 [BookStack](https://www.bookstackapp.com/) [![GitHub_Stars](https://img.shields.io/github/stars/BookStackApp/BookStack?style=social&color=white)](https://github.com/BookStackApp/BookStack/stargazers)
 - **Repository:** [`BookStackApp/BookStack`](https://github.com/BookStackApp/BookStack) | **License:** MIT
 - **Tech Stack:** PHP, Laravel, MySQL
 - **Overview:** An opinionated, simple self-hosted documentation platform built on an intuitive real-world library metaphor: **Shelves → Books → Chapters → Pages**.
@@ -173,7 +173,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 13. ⚡ [VitePress](https://vitepress.dev/) [![GitHub stars](https://img.shields.io/github/stars/vuejs/vitepress?style=social&color=white)](https://github.com/vuejs/vitepress/stargazers)
+### 13. ⚡ [VitePress](https://vitepress.dev/) [![GitHub_Stars](https://img.shields.io/github/stars/vuejs/vitepress?style=social&color=white)](https://github.com/vuejs/vitepress/stargazers)
 - **Repository:** [`vuejs/vitepress`](https://github.com/vuejs/vitepress) | **License:** MIT
 - **Tech Stack:** Vue 3, Vite
 - **Overview:** Vite-powered static site generator, designed as the modern successor to VuePress. Engineered to deliver exceptional developer experience and ultra-fast build speeds.
@@ -181,7 +181,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 14. 🌟 [Starlight (Astro)](https://starlight.astro.build/) [![GitHub stars](https://img.shields.io/github/stars/withastro/starlight?style=social&color=white)](https://github.com/withastro/starlight/stargazers)
+### 14. 🌟 [Starlight (Astro)](https://starlight.astro.build/) [![GitHub_Stars](https://img.shields.io/github/stars/withastro/starlight?style=social&color=white)](https://github.com/withastro/starlight/stargazers)
 - **Repository:** [`withastro/starlight`](https://github.com/withastro/starlight) | **License:** MIT
 - **Tech Stack:** Astro, TypeScript
 - **Overview:** Astro’s official documentation framework designed to deliver performant documentation websites with zero client-side JavaScript by default.
@@ -189,7 +189,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 15. 📖 [Read the Docs](https://about.readthedocs.com/) [![GitHub stars](https://img.shields.io/github/stars/readthedocs/readthedocs.org?style=social&color=white)](https://github.com/readthedocs/readthedocs.org/stargazers)
+### 15. 📖 [Read the Docs](https://about.readthedocs.com/) [![GitHub_Stars](https://img.shields.io/github/stars/readthedocs/readthedocs.org?style=social&color=white)](https://github.com/readthedocs/readthedocs.org/stargazers)
 - **Repository:** [`readthedocs/readthedocs.org`](https://github.com/readthedocs/readthedocs.org) | **License:** MIT
 - **Tech Stack:** Python, Django
 - **Overview:** The foundational open-source continuous documentation hosting platform. Automatically builds and hosts Sphinx and MkDocs documentation directly from Git repositories.
@@ -197,7 +197,7 @@ The open-source ecosystem provides transparent, cost-effective, docs-as-code alt
 
 ---
 
-### 16. 🐍 [Sphinx](https://www.sphinx-doc.org/) [![GitHub stars](https://img.shields.io/github/stars/sphinx-doc/sphinx?style=social&color=white)](https://github.com/sphinx-doc/sphinx/stargazers)
+### 16. 🐍 [Sphinx](https://www.sphinx-doc.org/) [![GitHub_Stars](https://img.shields.io/github/stars/sphinx-doc/sphinx?style=social&color=white)](https://github.com/sphinx-doc/sphinx/stargazers)
 - **Repository:** [`sphinx-doc/sphinx`](https://github.com/sphinx-doc/sphinx) | **License:** BSD-2-Clause
 - **Tech Stack:** Python, reStructuredText / MyST Markdown
 - **Overview:** The venerable technical documentation engine powering the official Python documentation, Linux Kernel docs, and major scientific and aerospace libraries.
@@ -254,7 +254,7 @@ Contributions to expand and update this curated Help Authoring Tool ecosystem ar
 
 1. 🍴 **Fork the Repository** on GitHub.
 2. 🌿 **Create a New Branch:** `git checkout -b feature/add-new-tool`.
-3. 📝 **Add or Update Entries:** Ensure tools are categorized correctly with verified pricing, free tier terms, and GitHub star counts.
+3. 📝 **Add or Update Entries:** Ensure tools are categorized correctly with verified pricing, free tier terms, and GitHub Stars_Counts.
 4. ✅ **Ensure Factual Accuracy:** Include references, transparent descriptions, and avoid promotional language.
 5. 🚀 **Submit a Pull Request** with a descriptive summary of your additions.
 
